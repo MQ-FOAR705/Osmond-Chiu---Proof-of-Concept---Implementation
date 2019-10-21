@@ -2,7 +2,19 @@
 
 This repository contains the Proof of Concept Technology Deployment for FOAR705. It will include a package that can be run that downloads and installs Zotero and OpenSemantic Search. The package will also open relevant websites to create accounts, download and provide instructions on how to use those tools and Hypothes.is for data organisation and references.
 
-# Outline of the Proof of Concept:
+# Requirements:
+
+This package can only be run on an Apple macOS. It cannot be used on Windows or Linux.
+
+To use these tools on another operating system, a virtual machine or the separate downloading of component tools will be required.
+
+Zotero may be downloaded from https://www.zotero.org/download/
+
+OpenSemantic Search can be downloaded from https://www.opensemanticsearch.org/download/
+
+Virtual Box can be downloaded from https://www.virtualbox.org/wiki/Downloads
+
+# Outline:
 
 This package utilises and provides instructions for using three tools for research: Zotero, Hypothes.is and OpenSemantic Search. These tools can be used for the organisation of sources and reference management.
 
