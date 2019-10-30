@@ -30,4 +30,6 @@ open $(mdfind -name "RBToolsMacChecklist.pdf")
 # Notification about Instructions
 
 title='Read Instructions'
-osascript -e "display dialog \"Follow RBTools instructions to set up Zotero, Hy$
+osascript -e "display dialog \"Follow RBTools instructions to set up Zotero, Hypothes.is and Open Semantic Search\" with title \"$title\""
+
+
