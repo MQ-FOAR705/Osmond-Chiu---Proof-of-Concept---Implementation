@@ -29,3 +29,11 @@ Virtual Box is a virtual machine required to run OpenSemantic Search
 An executable file was created in Bash that downloaded installation packages for Zotero and OpenSemantic Search, created folders, opened websites to create Zotero and Hypothes.is accounts and prompt the reading of instructions to use the three tools when opened.
 
 The instructions also explain how to connect Zotero to Overleaf and how to integrate Hypothes.is with OpenSemantic Search.
+
+# Please Note:
+
+When the software package is run, a folder named install-package will be created on your Desktop where installation files for Zotero, OpenSemantic Search and Virtual Box will be downloaded to.
+
+Your default browser will also open at the URLs to create Zotero and Hypothes.is accounts.
+
+The software's Instructions and a Checklist will also open to guide you through the process of installing and testing the software.
