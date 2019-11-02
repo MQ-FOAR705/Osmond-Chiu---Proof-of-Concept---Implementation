@@ -1,0 +1,554 @@
+\documentclass{article}
+ \usepackage{graphicx}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+\title{Proof of Concept - Design Documentpli}
+\author{Osmond Chiu}
+
+\begin{document}
+\maketitle
+
+Based on the results of my elaboration, my Proof of Concept will focus on the use of tools to improve the organisation of data and referencing for my thesis. The tools used will be Open Semantic Search, Zotero and Hypothes.is.
+
+\section*{Data Organisation}
+\subsection*{User Story}
+
+\subsubsection*{Install Virtual Box}
+
+As a student, I want to install Virtual Box, so that I can use it to run OpenSemantic Search which will help with the organisation of my data to eliminate monotonous tasks and improve my efficiency.
+
+\subsubsection*{Load OpenSemantic Search}
+
+As a student, I want to install OpenSemantic Search, so that I can use it to help with the organisation of my data to eliminate monotonous tasks and improve my efficiency.
+
+\subsubsection*{Index in OpenSemantic Search}
+
+As a student, I want my software to index my folder of documents, so that I can automatically organise my documents to help me find key topics within documents without needing to open them all.
+
+\subsubsection*{Text Search in OpenSemantic Search}
+
+As a student, I want my software to search for keywords within documents, so that I can easily find key points and sentences within documents without needing to open them all.
+
+\subsubsection*{Create tag hierarchy}
+
+As a student, I want to have a tag hierarchy, so that I can tag documents by topic to group them together in software.
+
+\subsubsection*{Create tags in OpenSemantic Search}
+
+As an MRes student, I want my software to create tags, so that I can used my tag hierarchy to group documents by topic.
+
+\subsubsection*{Tag Documents in OpenSemantic Search}
+
+As an MRes student, I want my software to tags documents, so that I can easily find documents on related topics.
+
+\subsubsection*{Highlight in Hypothes.is}
+
+As an MRes student, I want my software to enable me to highlighted lines in online documents, so that I can easily find key lines I previously identified.
+
+\subsubsection*{Create Zotero account}
+
+As an MRes student, I want the data in my bibliographical software centrally stored, so I can access it on other computers or online.
+
+\subsubsection*{Sync Zotero account}
+
+As an MRes student, I want to be able to access data from my bibliographic software remotely, so I can access it elsewhere or online.
+
+\subsubsection*{Create Hypothes.is account}
+
+As an MRes student, I want to be to be able to bookmark online sources, so I can keep track of potential sources in a single location.
+
+\subsubsection*{Add Hypothes.is to browser}
+
+As an MRes student, I want to be able to easily highlight or add annotations to online sources, so I refer back to sources and quickly identify why it is relevant.
+
+\subsubsection*{Generate Hypothes.is API token}
+
+As an MRes student, I want Hypothes.is to be able to communicate with other tools I am using for data collection, so that I can import data across easily.
+
+\subsubsection*{Install Zotero bibliographic software}
+
+As an MRes student, I want my bibliographic software to enable me to tag and annotate sources, so that I can easily find sources I have used for my research.
+
+\subsubsection*{Annotation in Hypothes.is}
+
+As an MRes student, I want my software to enable me to add annotated notes in online documents, so that I can easily find notes about key passages I previously identified.
+
+\subsubsection*{Import Annotations from Hypothes.is into OpenSemantic Search}
+
+As an MRes student, I want my software to enable me to import my online annotations, so that I can keep my offline and online annotations in a single place
+
+\subsection*{Acceptance Criteria}
+
+\subsubsection*{Install Virtual Box}
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Go to the Virtual Box website
+\item Download Virtual Box
+\item Install VirtualBox
+\end{enumerate}
+
+\subsubsection*{Load OpenSemantic Search}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Download OpenSemantic Search
+\item Open VirtualBox
+\item Load OpenSemantic onto VirtualBox
+\end{enumerate}
+
+\subsubsection*{Index in OpenSemantic Search}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Open VirtualBox
+\item Select Settings then Shared Folder
+\item Select Folder Path and Folder Name of folder with documents I want to index
+\item Click start to load Open Semantic Desktop Search
+\item Cause the program to index documents and folders and auto generate tags.
+\end{enumerate}
+
+\subsubsection*{Text Search in OpenSemantic Search}
+
+As an MRes student, I should be able to
+\begin{enumerate}
+\item Open VirtualBox
+\item Click start to load OpenSemantic Search
+\item Enter in the keywords to search for.
+\item Cause the program to search for the keywords in the documents.
+\item Cause the program to generate a list of the documents with the selected keywords and its location
+\end{enumerate}
+
+\subsubsection*{Create tag hierarchy}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Identify key words and concepts for my research
+\item Write down the potential tags in a list that can be uploaded to OpenSemantic Search
+\item Save to a document
+\end{enumerate}
+
+\subsubsection*{Create Tags in OpenSemantic Search}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Open VirtualBox
+\item Click start to load Open Semantic Desktop Search
+\item Click Manage Structure
+\item Click Add new entry
+\item Enter tag name in label or name and leave facet blank
+\item Click save
+\end{enumerate}
+
+\subsubsection*{Tag documents in OpenSemantic Search}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Open VirtualBox
+\item Click start to load Open Semantic Desktop Search
+\item Search for document.
+\item Click Tagging and annotation under Document
+\item Select tags
+\item Click Save
+\end{enumerate}
+
+\subsubsection*{Highlight in Hypothes.is}
+
+As an MRes student, I should be able to: \begin{enumerate}
+\item Enter in the URL for a website.
+\item Click on the Hypothes.is browser toolbox if inactive to sync with account
+\item Identify text in open document
+\item Highlight the selected text. 
+\item Click on an icon to confirm the highlight.
+\end{enumerate}
+
+\subsubsection*{Install Zotero bibliographic software}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Go to Zotero website
+\item Download Zotero
+\item Install Zotero
+\end{enumerate}
+
+\subsubsection*{Create Zotero account}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Go to the Zotero  website
+\item Click Login then Register for a free account
+\item Enter a username, email and password 
+\item Click Register.
+\item Go to email address used to register new accont
+\item Verify Zotero account
+\end{enumerate}
+
+\subsubsection*{Sync Zotero account}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Open Zotero
+\item Go to Zotero menu then Preferences
+\item Open Zotero's Sync preferences tab 
+\item Enter your login information into the Zotero Sync Server section.
+\end{enumerate}
+
+\subsubsection*{Create Hypothes.is account}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Go to Hypothes.is website
+\item Click on 'Create New Account'
+\item Enter a username, email and password
+\item Click 'Sign Up'
+\item Go to email addresss used for Hypothes.is account
+\item Verify Hypothes.is account
+\end{enumerate}
+
+\subsubsection*{Add Hypothes.is to browser}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Go to 'Get Started' on Hypothes.is website
+\item Add Hypothes.is bookmarklet
+\item If using Chrome, click on 'add Chrome Extension'
+\item Add hypothes.is Chrome extension
+\end{enumerate}
+
+\subsubsection*{Generate Hypothes.is API token}
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Go to Hypothes.is website
+\item Log into Hypothes.is account
+\item Click on gear icon then 'Developer'
+\item Click 'Generate your API token'
+\end{enumerate}
+
+\subsubsection*{Annotate in Hypothes.is}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Enter in the URL for a website. 
+\item Click on the Hypothes.is browser toolbox if inactive to sync with account
+\item Select the relevant text. 
+\item Click on an icon to confirm an annotation will be created
+\item Create an annotation the selected text.
+\item Write the annotation for the selected text.
+\item Tag the annotations. 
+\item Choose the privacy setting of the annotation
+\item Save the annotation. 
+\end{enumerate}
+
+\subsubsection*{Import annotations from Hypothes.is into OpenSemantic Search}
+
+As an MRes student, I should be able to:
+\begin{enumerate}
+\item Log in to my Hypothes.is account.
+\item Click on Settings icon then select Developer
+\item Generate an API token
+\item Open VirtualBox
+\item Start OpenSemantic Search
+\item Go to datasources
+\item Select Hypothes.is
+\item In browser, go to Hypothes.is website
+\item If not logged in, log into account
+\item Once logged in, click on gear icon then 'Developer'
+\item If API token already generated, copy API token
+\item Enter copied API token
+\item Import saved Hypothes.is annotations
+\end{enumerate}
+
+\subsection*{Prerequisites}
+
+The indexation of documents must be completed for the data organisation component of the proof of concept to work. Without indexation, tagging cannot occur. Text searching will improve it but is not necessary.
+
+Annotations must be done for the import of annotations to occur. Additional annotations can always substitute for highlighted lines.
+
+\subsubsection*{Install Virtual Box}
+
+Before I can install VirtualBox, I will need to:
+\begin{itemize}
+\item ensure VirtualBox is compatible with my computer's operating system
+\item ensure my hard drive has enough space for VirtualBox Search
+\item Go to the Virtual Box website
+\item download VirtualBox
+\end{itemize} 
+
+\subsubsection*{Load OpenSemantic Search}
+
+Before I can load OpenSemantic Search, I will need to:\begin{itemize}
+\item install VirtualBox
+\item ensure OpenSemantic Search is compatible with my computer's operating system
+\item ensure my hard drive has enough space for OpenSemantic Search
+\item Go to the OpenSemantic search website
+\item download OpenSemantic Search
+\end{itemize}
+
+\subsubsection*{Index in OpenSemantic Search}
+
+Before I can index, I will need to:\begin{itemize}
+\item know where the documents I wish to index are located
+\item install VirtualBox
+\item load OpenSemantic Search
+\item know what information from the documents will be indexed
+\end{itemize}
+
+\subsubsection*{Text Search in OpenSemantic Search}
+Before I can do text search, I will need to:\begin{itemize}
+\item install VirtualBox
+\item load OpenSemantic Search
+\item index documents
+\end{itemize}
+
+\subsubsection*{Create tag hierarchy}
+
+Before I create a tag hierarchy, I will need to:
+\begin{itemize}
+\item identify keywords and concepts
+\end{itemize}
+
+\subsubsection*{Create Tags in OpenSemantic Search}
+
+Before I create tags, I will need to:
+\begin{itemize}
+\item create the tag hierarchy
+\item install VirtualBox
+\item load OpenSemantic Search
+\item index documents
+\end{itemize}
+
+\subsubsection*{Tag documents in OpenSemantic Search}
+
+Before I tag documents, I will need to:
+\begin{itemize}
+\item Create the tag hierarchy
+\item install VirtualBox
+\item load OpenSemantic Search
+\item index documents
+\end{itemize}
+
+\subsubsection*{Highlight in Hypothes.is}
+
+Before I can highlight text, I will:
+\begin{itemize}
+\item need a Hypothes.is account established
+\item need a Hypothes.is browser toolbar installed or bookmarketlet added
+\end{itemize}
+
+\subsubsection*{Install Zotero bibliographic software}
+Before I can install bibliographic software, I will:
+\begin{itemize}
+\item ensure Zotero is compatible with my computer's operating system
+\item ensure my hard drive has enough space for Zotero
+\item need to download Zotero
+\end{itemize}
+
+\subsubsection*{Create Zotero account}
+
+Before I can create a Zotero account, I will:
+\begin{itemize}
+\item need an email address
+\end{itemize}
+
+\subsubsection*{Sync Zotero account}
+
+Before I can sync my Zotero account, I will:
+\begin{itemize}
+\item need a Zotero account established
+\item need Zotero installed
+\end{itemize}
+
+\subsubsection*{Create Hypothes.is account}
+
+Before I can create a Hypothes.is account, I will:
+\begin{itemize}
+\item need an email address
+\end{itemize}
+
+\subsubsection*{Add Hypothes.is to browser}
+
+Before I can add Hypothes.is to browser, I will:
+\begin{itemize}
+\item need a Hypothes.is account established
+\end{itemize}
+
+\subsubsection*{Generate Hypothes.is API token}
+
+Before I can generate a Hypothes.is API token, I will:
+\begin{itemize}
+\item need a Hypothes.is account established
+\end{itemize}
+
+\subsubsection*{Annotations in Hypothes.is}
+
+Before I can insert annotations, I will:
+\begin{itemize}
+\item need a Hypothes.is account established
+\item need a Hypothes.is browser toolbar installed
+\item need tags or a framework for tag naming
+\end{itemize}
+
+\subsubsection*{Import Annotations from Hypothes.is into OpenSemantic Search}
+
+Before I can import annotations, I will, 
+\begin{itemize}
+\item need a Hypothes.is account established
+\item need VirtualBox installed
+\item need OpenSemantic Search installed
+\item have annotations in Hypothes.is
+\end{itemize}
+
+\section*{Referencing}
+
+\subsection*{User Story}
+
+\subsubsection*{Import References}
+
+As an MRes student, I want my bibliography software to import my references, so that I don’t have to manually enter all the references for my bibliography.
+
+\subsubsection*{Link Zotero to the typesetting or word processing program}
+
+As an MRes student, I want my bibliography software integrated with my word processing or typesetting program, so that I can easily insert references.
+
+\subsubsection*{Insert References}
+
+As an MRes student, I want my bibliography software to insert my references, so that I don’t have to manually enter all the citations and do not need to check it meets the correct reference style.
+
+\subsubsection*{Generate Bibliography}
+
+As an MRes student, I want my bibliography software to generate my bibliography, so that I don’t have to double check my references against my bibliography’
+
+\subsection*{Acceptance Criteria}
+
+\subsubsection*{Import References}
+
+As an MRes student, I should be able to:
+\begin{enumerate} 
+\item Search for information about the source I am using the Macquarie Library website. 
+\item Download the reference data in a Bibtex format for the source from the library website. 
+\item Open the bibliography software Zotero. 
+\item Choose Import then select the Bibtex file with reference data. 
+\item Move the reference to the correct collection under My Library or create a new collection to move it to
+\item Check information and make any corrections to the imported reference in Info.
+\end{enumerate} 
+
+\subsubsection*{Link Zotero to the typesetting or word processing program}
+
+As an MRes student, I should be able to: 
+\begin{enumerate} 
+\item Log into Overleaf
+\item Go to Account Settings
+\item Check whether Zotero is already linked to the program I will be using.
+\item Log into my Zotero account
+\item Accept the New Private Key to link the accounts
+\end{enumerate} 
+
+\subsubsection*{Insert references}
+
+As an MRes student, I should be able to: 
+\begin{enumerate} 
+\item Link the Zotero bibliography software to the typesetting or word processing program
+\item supply a bibliography database to the program. 
+\item Choose the citation style.
+\item Select the relevant source to cite
+\item Cause the program to generate the correct in-text citation based on the chosen source and style.
+\end{enumerate} 
+
+\subsubsection*{Generate bibliography}
+\begin{enumerate} 
+\item Ensure the Zotero bibliography software is linked to the typesetting or word processing program
+\item Choose the referencing style for the bibliography.
+\item Double check that the references have no typos
+\item Go to where the bibliography will be in the document
+\item Cause the program to generate the bibliography in that location
+\end{enumerate} 
+
+
+\subsection*{Prerequisites}
+
+The inserting of references and the generating of the bibliography must be completed for the referencing component of the proof of concept to work. The importation of references will improve it but is not necessary.
+
+\subsubsection*{Import References}
+
+Before references can be imported:
+\begin{itemize}
+\item Zotero account will need to be created
+    \item Zotero bibliography software will need to be installed
+    \item Zotero account will need to be synced with software
+    \item basic information about sources used will be needed to enable searches for Bibtex files.
+    \item Library websites will need to be searched to find relevant Bibtex files
+\end{itemize}
+
+\subsubsection*{Link Zotero to the typesetting or word processing program}
+
+Before Zotero can be linked to the typesetting or word processing programs being used:
+\begin{itemize}
+\item Zotero account will need to be created
+    \item Zotero bibliography software will need to be installed
+    \item Zotero account will need to be synced with software
+\end{itemize}
+
+\subsubsection*{Insert references}
+
+Before references can be inserted:
+\begin{itemize}
+\item Zotero account will need to be created
+    \item Zotero bibliography software will need to be installed
+    \item Zotero account will need to be synced with software
+    \item Zotero bibliography software will need to be integrated with the software used for writing
+    \item references will need to be imported into the Zotero bibliography software
+    \item references will need to be checked for typos and corrected
+    \item the referencing for the document will need to be known
+\end{itemize}
+
+\subsubsection*{Generate Bibliography}
+
+Before a bibliography can be generated:
+\begin{itemize}
+\item Zotero account will need to be created
+    \item Zotero bibliography software will need to be installed
+    \item Zotero account will need to be synced with software
+    \item Zotero bibliography software will need to be integrated with the software used for writing
+    \item references will need to be imported into the Zotero bibliography software
+    \item references will need to be checked for typos and corrected
+    \item the referencing for the document will need to be known
+\end{itemize}
+
+\subsection*{Prioritisation of user stories}
+
+Based on the user stories that I would like completed, I am prioritising them in the following order
+
+\begin{enumerate}
+    \item Download Zotero
+    \item Install Zotero
+    \item Create Zotero account
+    \item Sync Zotero
+    \item Link Zotero to the typesetting or word processing program
+    \item Import references
+    \item Insert references
+    \item Generate bibliography
+    \item Create Hypothes.is account
+    \item Install Hypothes.is toolbar and bookmarklet
+    \item Create tag hierarchy
+    \item Highlight in Hypothes.is
+    \item Annotation in Hypothes.is
+    \item Download Virtual Box
+    \item Download OpenSemantic Search
+    \item Install Virtual Box
+    \item Load OpenSemantic Search
+    \item Text search in Open Semantic Search
+    \item Create tags in Open Semantic Search
+    \item Tag documents in Open Semantic Search
+    \item Generate Hypothes.is API token
+    \item Import Annotations from Hypothes.is into Open Semantic Search
+
+\end{enumerate}
+
+\subsection*{Disaster recovery plan}
+
+It will be important to have a disaster recovery plan to restore the development environment, data, and code to a completely clean computer in the event.
+
+Duplicati will be used to automatically back up files from my computer in Cloudstor. A regular daily backup will be established.
+
+A final back up will be using an external hard drive for the most recent version of saved documents with a regular calendar reminder to do this. 
+
+\end{document}
