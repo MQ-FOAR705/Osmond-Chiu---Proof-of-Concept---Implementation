@@ -7,7 +7,7 @@ cd install-package
 
 # Downloads Zotero, VirtualBox and OpenSemantic Search.
 
-curl -O https://download.zotero.org/client/release/5.0.74/Zotero-5.0.74.dmg
+curl -O https://download.zotero.org/client/release/5.0.77/Zotero-5.0.77.dmg
 curl -O https://download.virtualbox.org/virtualbox/6.0.14/VirtualBox-6.0.14-133$
 curl -O https://nx318.your-storageshare.de/s/DJ8HAJYXmpgMQyZ/download
 mv download open-semantic-desktop-search_19.10.27.ova
