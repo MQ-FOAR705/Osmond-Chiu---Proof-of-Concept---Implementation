@@ -42,6 +42,6 @@ Your default browser will also open at the URLs to create Zotero and Hypothes.is
 
 The software's Instructions and a Checklist will also open to guide you through the process of installing and testing the software.
 
-# Limitations of package:
+# Issues:
 
-This software package does not provide instructions on how to use the full range of functionalities of OpenSemantic Search. For example, thesauruses can be uploaded to automatically tag documents based on keywords. Instructions on this is not included.
+This software package has limitations. It does not provide instructions on how to use the full range of functionalities of OpenSemantic Search or how to link Zotero and Hypothes.is using the Hypothes.is API. For example, thesauruses can be uploaded to automatically tag documents based on keywords. Instructions on these functionalities is not included as I have not been able to work out how to do these in the time available.
