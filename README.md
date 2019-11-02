@@ -20,11 +20,11 @@ The instructions also explain how to connect Zotero to Overleaf and how to integ
 
 # Requirements:
 
-This package can only be run on an Apple macOS. It cannot be used on Windows or Linux.
+This package can only be run on an Apple macOS. It cannot be used on Windows or Linux. Approximately 4GB of disk space will be required.
 
 To use these tools on another operating system, a virtual machine or the separate downloading of component tools will be required.
 
-Zotero may be downloaded from https://www.zotero.org/download/
+Zotero may be downloaded from https://www.zotero.org/download/.
 
 OpenSemantic Search can be downloaded from https://www.opensemanticsearch.org/download/
 
