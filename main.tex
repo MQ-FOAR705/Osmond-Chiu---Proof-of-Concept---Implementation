@@ -9,7 +9,7 @@
 
 %-------------------------
 
-\title{Instructions for Technology Deployment}
+\title{Instructions for RBTools for Mac Technology Deployment}
 \author{Osmond Chiu}
 \date{2019}
 \input{cheatsheet-template.tex}
@@ -47,7 +47,7 @@
 \end{textbox}
 
 \begin{textbox}{OpenSemantic Search}
- \href{https://www.opensemanticsearch.org}{OpenSemantic Search} \sep \href{https://www.opensemanticsearch.org}{Search Engine and Open Source Text Mining & Text Analytics}
+\href{https://www.opensemanticsearch.org}{OpenSemantic Search} \sep \href{https://www.opensemanticsearch.org}{Search Engine and Open Source Text Mining & Text Analytics}
 
 \includegraphics[width=\textwidth]{search.png}
 
@@ -61,15 +61,17 @@
 
 
 \begin{textbox}{Install Package}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Package}
 \begin{enumerate}
+\item \textbf{Confirm} Operating System and disk space requirements are met by looking at readme.md in the Git repository
 \item \textbf{Download} from the repository at \href{https://github.com/MQ-FOAR705/Osmond-Chiu---Proof-of-Concept---Implementation.git}{https://github.com/MQ-FOAR705/Osmond-Chiu---Proof-of-Concept---Implementation.git}
-\item \textbf{Run} the downloaded package to begin installation
+\item \textbf{Open} Zip File
+\item \textbf{Run} the downloaded RBToolsMac package to begin installation
 \item \textbf{Read} these instructions
 \item \textbf{Tick} off completed tasks from checklist
 \end{enumerate}
@@ -82,9 +84,9 @@ test  \sep test \sep test \sep test
 \section{Zotero}
 \subsection{Setup}
 \begin{textbox}{Complete Installation}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Zotero}
@@ -96,9 +98,9 @@ test  \sep test \sep test \sep test
 \end{textbox}
 
 \begin{textbox}{Create account}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Zotero}
@@ -115,9 +117,9 @@ test  \sep test \sep test \sep test
 
 
 \begin{textbox}{Sync account}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Zotero}
@@ -135,14 +137,17 @@ test  \sep test \sep test \sep test
 
 \subsection{Using Zotero With Other Programs}
 
-\begin{textbox}{Link Zotero to LaTex}
-test  \sep test \sep test \sep test
+\begin{textbox}{Link Zotero to Overleaf}
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Zotero}
+\red{Overleaf}
 \begin{enumerate}
+\item \textbf{Go to}  \href{https://www.overleaf.com/}{https://www.overleaf.com/}. 
+\item \textbf{Register} an Overleaf account if you do not already have one.
 \item \textbf{Log} into Overleaf.
 \item \textbf{Open} Preferences (via the Zotero menu) and select the Sync tab.
 \item \textbf {Enter} your Zotero user name and password.
@@ -159,44 +164,53 @@ test  \sep test \sep test \sep test
 
  
  \begin{textbox}{Import references}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Zotero}
+\red{Overleaf}
 \begin{enumerate}
 \item \textbf {Go} to Overleaf 
 \item \textbf {Select} the project that you want to link to Zotero
 \item \textbf {Select} New File from the top menu.
-\item \textbf {Select} 'From Zotero', name the file for the project and choose a format (BibTeX or BibLaTeX).
-\item \textbf {Go} to main.tex file and add your Zotero file (as a bib resource) to header with the code \begin{verbatim} \bibliographystyle{style}  \end{verbatim}.
+\item \textbf {Select} 'From Zotero', name the file for the project and choose a format (BibLaTeX).
+\item \textbf {Go} to main.tex file and add your Zotero file (as a bib resource) to header with the codes \begin{verbatim} \usepackage{biblatex} and \bibliography{name_of_file.bib}\end{verbatim}.
 \end{enumerate}
 
 \end{textbox}
+
+  
 
   \begin{textbox}{Insert references}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Zotero}
+\red{Overleaf}
 \begin{enumerate}
-\item \textbf{Insert} and select a Zotero citation by typing into the source code \begin{verbatim}\cite\end{verbatim}
+\item \textbf {Select} where you want to place the reference in the text
+\item \textbf {Write} /cite{} then enter in citation
 \end{enumerate}
 
 \end{textbox}
 
- \begin{textbox}{Generate bibliography}
-test  \sep test \sep test \sep test
+  
 
-\bigskip
+ \begin{textbox}{Generate bibliography}
+ 
+
+  
 
 \green{Instructions}
 \red{Zotero}
+\red{Overleaf}
 \begin{enumerate}
-\item \textbf{Insert} your bibliography by typing into the source code \begin{verbatim}\bibliography{filename} \end{verbatim}.
+\item \textbf {Select} where you want to place the bibliography in the text
+\item \textbf{Insert} your bibliography by typing into the source code \begin{verbatim}/printbibliography\end{verbatim}.
 \end{enumerate}
 
 \end{textbox}
@@ -209,9 +223,9 @@ test  \sep test \sep test \sep test
 \subsection{Setup}
 
 \begin{textbox}{Create account}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Hypothes.is}
@@ -226,9 +240,9 @@ test  \sep test \sep test \sep test
 \end{textbox}
 
 \begin{textbox}{Add Chrome Extension}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Hypothes.is}
@@ -242,9 +256,9 @@ test  \sep test \sep test \sep test
 \end{textbox}
 
 \begin{textbox}{Add Bookmarklet}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Hypothes.is}
@@ -258,9 +272,9 @@ test  \sep test \sep test \sep test
 \subsection{Using Hypothes.is}
 
 \begin{textbox}{Create tag hierarchy}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Hypothes.is}
@@ -274,18 +288,18 @@ test  \sep test \sep test \sep test
 
 
 \begin{textbox}{Highlight}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Hypothes.is}
 \begin{enumerate}
 \item \textbf{Go to} webpage or open a local file in a browser. 
-\item \textbf{Click} on Hypothes.is icon in browswer toolbar or bookmarklet.
+\item \textbf{Click} on Hypothes.is icon in browser toolbar or bookmarklet.
 \item \textbf{Click} toggle or resize sidebar.
 \item \textbf{Log} into your Hypothes.is account.
-\item \textbf{Choose} whether you want the higlight to be public or in a private group .
+\item \textbf{Choose} whether you want the highlight to be public or in a private group .
 \item \textbf{Select} text that you wish to highlight.
 \item \textbf{Click} on the Highlight icon that appeals.
 
@@ -294,18 +308,18 @@ test  \sep test \sep test \sep test
 \end{textbox}
 
 \begin{textbox}{Annotate}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Hypothes.is}
 \begin{enumerate}
 \item \textbf{Go to} webpage. 
-\item \textbf{Click} on Hypothes'is icon in browswer toolbar or bookmarklet.
+\item \textbf{Click} on Hypothes'is icon in browser toolbar or bookmarklet.
 \item \textbf{Click} toggle or resize sidebar.
 \item \textbf{Log} into your Hypothes.is account.
-\item \textbf{Choose} whether you want the higlight to be public or in a private group .
+\item \textbf{Choose} whether you want the highlight to be public or in a private group .
 \item \textbf{Select} text that you wish to annotate.
 \item \textbf{Click} on the Annotate icon that appeals.
 \item \textbf{Type} annotations in text box
@@ -318,9 +332,9 @@ test  \sep test \sep test \sep test
 
 
 \begin{textbox}{Generate API token}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}
 \red{Hypothes.is}
@@ -342,9 +356,9 @@ test  \sep test \sep test \sep test
 
 
 \begin{textbox}{Install Virtual Box}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}\red{OpenSemantic Search}
 
@@ -358,9 +372,9 @@ test  \sep test \sep test \sep test
 \end{textbox}
 
 \begin{textbox}{Install OpenSemantic Search}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}\red{OpenSemantic Search}
 \begin{enumerate}
@@ -377,9 +391,9 @@ test  \sep test \sep test \sep test
 \end{textbox}
 
 \begin{textbox}{Load OpenSemantic Search}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}\red{OpenSemantic Search}
 \begin{enumerate}
@@ -391,9 +405,9 @@ test  \sep test \sep test \sep test
 \end{textbox}
 
 \begin{textbox}{Text search}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}\red{OpenSemantic Search}
 \begin{enumerate}
@@ -406,9 +420,9 @@ test  \sep test \sep test \sep test
 
 
 \begin{textbox}{Create tags}
-test  \sep test \sep test \sep test
+ 
 
-\bigskip
+  
 
 \green{Instructions}\red{OpenSemantic Search}
 \begin{enumerate}
@@ -424,11 +438,11 @@ test  \sep test \sep test \sep test
 \end{textbox}
 
 \begin{textbox}{Tag documents}
-test  \sep test \sep test \sep test
 
-\bigskip
+  
 
-\green{Instructions}\red{OpenSemantic Search}
+\green{Instructions}
+\red{OpenSemantic Search}
 \begin{enumerate}
 \item \textbf{Search} for document you wish to tag
 \item \textbf{Click} Tagging and annotation for this document in the search results
@@ -439,10 +453,8 @@ test  \sep test \sep test \sep test
 
 
 \begin{textbox}{Import from Hypothes.is}
-test  \sep test \sep test \sep test
 
-
-\bigskip
+  
 
 \green{Instructions}\red{OpenSemantic Search}\red{Hypothes.is}
 \begin{enumerate}
