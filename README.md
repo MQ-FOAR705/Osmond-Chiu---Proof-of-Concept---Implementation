@@ -41,3 +41,7 @@ When the software package is run, a folder named install-package will be created
 Your default browser will also open at the URLs to create Zotero and Hypothes.is accounts.
 
 The software's Instructions and a Checklist will also open to guide you through the process of installing and testing the software.
+
+# Limitations of package:
+
+This software package does not provide instructions on how to use the full range of functionalities of OpenSemantic Search. For example, thesauruses can be uploaded to automatically tag documents based on keywords. Instructions on this is not included.
