@@ -8,14 +8,14 @@ cd install-package
 
 # Downloads Zotero, VirtualBox and OpenSemantic Search.
 
-curl -O https://download.zotero.org/client/release/5.0.74/Zotero-5.0.74.dmg 
+curl -O https://download.zotero.org/client/release/5.0.77/Zotero-5.0.77.dmg 
 curl -O https://download.virtualbox.org/virtualbox/6.0.14/VirtualBox-6.0.14-133895-OSX.dmg
 curl -O https://nx318.your-storageshare.de/s/DJ8HAJYXmpgMQyZ/download
 mv download open-semantic-desktop-search_19.10.27.ova
 
 # Begins installation process.
 
-open Zotero-5.0.74.dmg
+open Zotero-5.0.77.dmg
 open VirtualBox-6.0.14-133895-OSX.dmg
 
 # Creating Zotero and Hypothes.is accounts
@@ -23,14 +23,13 @@ open VirtualBox-6.0.14-133895-OSX.dmg
 Open https://www.zotero.org/user/register
 Open https://web.hypothes.is/start/
 
-# Open Instructions and Quality Assurance Test.
+# Open Instructions.
 
 open $(mdfind -name "RBToolsMacInstructions.pdf")
-open $(mdfind -name "RBToolsMacChecklist.pdf")
 
 # Notification about Instructions
 
 title='Read Instructions'
-osascript -e "display dialog \"Follow RBTools instructions to set up Zotero, Hypothes.is and Open Semantic Search\" with title \"$title\""
+osascript -e "display dialog \"Follow opened RBTools instructions to set up Zotero, Hypothes.is and Open Semantic Search\" with title \"$title\""
 
 
