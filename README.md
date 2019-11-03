@@ -40,7 +40,9 @@ When the software package is run, a folder named install-package will be created
 
 Your default browser will also open at the URLs to create Zotero and Hypothes.is accounts.
 
-The software's Instructions and a Checklist will also open to guide you through the process of installing and testing the software.
+The software's Instructions will also open to guide you through the process of installing the software.
+
+A User Acceptance Test checklist in this respository will enable testing of the steps of the software packaage.
 
 # Issues:
 
