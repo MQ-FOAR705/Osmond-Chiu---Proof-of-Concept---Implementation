@@ -47,3 +47,5 @@ A User Acceptance Test checklist in this respository will enable testing of the 
 # Issues:
 
 This software package has limitations. It does not provide instructions on how to use the full range of functionalities of Open Semantic Search or how to link Zotero and Hypothes.is using the Hypothes.is API. For example, thesauruses can be uploaded to automatically tag documents based on keywords. Instructions on these functionalities is not included as I have not been able to work out how to do these in the time available.
+
+The software package may not open when clicked due to security settings as it was not created by an identified developer. To bypass these security settings, control-click the RBToolsPackageforMac file, then click Open. The app will be saved as an exception to security setings in the future. 
