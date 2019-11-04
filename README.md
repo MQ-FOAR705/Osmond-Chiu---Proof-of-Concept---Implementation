@@ -42,7 +42,7 @@ Your default browser will also open at the URLs to create Zotero and Hypothes.is
 
 The software's Instructions will also open to guide you through the process of installing the software.
 
-A User Acceptance Test checklist in this respository will enable testing of the steps of the software packaage.
+A User Acceptance Test in this respository will enable testing of the steps of the software packaage and a Quality Assurance Checklist ensures everything has been done.
 
 # Issues:
 
