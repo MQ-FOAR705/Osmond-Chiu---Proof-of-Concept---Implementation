@@ -42,13 +42,13 @@ Your default browser will also open at the URLs to create Zotero and Hypothes.is
 
 The package's Instructions will also open to guide you through the process of installing the software on all operating systems.
 
-An online HTML version of the instructions are available at https://ofchiumq.github.io/rbtoolsinstructions/
+An online HTML version of the instructions are also available at https://ofchiumq.github.io/rbtoolsinstructions/
 
 # Issues:
 
 This software package has a number of limitations.
 
-The software package does not provide instructions on how to use the full range of functionalities of Open Semantic Search or how to link Zotero and Hypothes.is using the Hypothes.is API. For example, thesauruses can be uploaded to automatically tag documents based on keywords. Instructions on these functionalities is not included as I have not been able to work out how to do these in the time available.
+The software package does not provide instructions on how to use the full range of functionalities of Open Semantic Search and Zotero or how to link Zotero and Hypothes.is using the Hypothes.is API. For example, thesauruses can be uploaded to automatically tag documents based on keywords in Open Semantic Search. Instructions on these functionalities is not included as I have not been able to work out how to do these in the time available or that there is other existing documentation on tool websites.
 
 The installer software package only downloads certain Mac versions of Zotero, Open Semantic Search and VirtualBox. Software for a different operating system or a newer updated version is not automatically downloaded. These programs will need to be manually downloaded if the installer does not work.
 
