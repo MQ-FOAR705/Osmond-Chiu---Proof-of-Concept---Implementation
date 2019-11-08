@@ -1,10 +1,10 @@
 # Background:
 
-This repository contains the Proof of Concept Technology Deployment for FOAR705. It will include a software package installer named RBTools for Mac that can be run that downloads and begins the installation process for Zotero and Open Semantic Search. The package will also open relevant websites to create accounts, download and provide instructions on how to use those tools and Hypothes.is for data organisation and references.
+This repository contains the Proof of Concept Technology Deployment for FOAR705. It will include a software package installer named RBTools for Mac that can be run that downloads and begins the installation process for Zotero and Open Semantic Search. The package will also open relevant websites to create accounts, download and provide instructions on how to install those tools and Hypothes.is for data organisation and references.
 
 # Outline:
 
-This package utilises and provides instructions for using three tools for research: Zotero, Hypothes.is and Open Semantic Search. These tools can be used for the organisation of sources and reference management.
+This package utilises and provides instructions for installing three tools for research: Zotero, Hypothes.is and Open Semantic Search. These tools can be used for the organisation of sources and reference management.
 
 Zotero is an open-source reference management software to manage bibliographic data and related research materials.
 
